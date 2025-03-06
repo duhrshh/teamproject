@@ -1,6 +1,6 @@
 # **Chris Pham**
 
-Lilburn, GA | cpham21@students.kennesaw.edu
+Lilburn, GA | cpham21@students.kennesaw.edu | [Github](https://github.com/Chris-P067)
 
  ## **Experience**
 
