@@ -25,9 +25,9 @@ Once we gathered, certain discussions were started in order to create an effecti
 #### Team Assignments
 
 - In order to maximize efficiency throughout the project, we assigned certain roles to each contributor:
-  - Role 1: [Project Manager](/projectplan/projectmanager) (Darsh)
-  - Role 2: [Front-End Developer](/projectplan/frontend) (Chris)
-  - Role 3: [Back-End Developer](/projectplan/backend) (Josiah)
+  - Role 1: [Project Manager](/projectplan/projectmanager.md) (Darsh)
+  - Role 2: [Front-End Developer](/projectplan/frontend.md) (Chris)
+  - Role 3: [Back-End Developer](/projectplan/backend.md) (Josiah)
 
 #### Technology Selection
 
