@@ -11,7 +11,7 @@ Marietta, GA | dpate213@students.kennesaw.edu | [Github](https://github.com/duhr
 
  - Ability to code in C#, C++ Java, Python, SQL, and Lua
 
- - Familiarity with IntelliJ IDEA, VSCode, Microsoft SQL Server, and 
+ - Familiarity with IntelliJ IDEA, VSCode, and Microsoft SQL Server
 
  ## **Coursework**
  - Discrete Mathematics, Database Systems, Computer Organization & Architecture, Data Communications, and Data Structures & Algorithms
