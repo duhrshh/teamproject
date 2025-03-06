@@ -1,7 +1,7 @@
 
 # **Josiah Regis**
 
-Marietta, GA | jregis1@students.kennesaw.edu | [GitHub]([Jo](https://github.com/IEatBoot)) 
+Marietta, GA | jregis1@students.kennesaw.edu | [GitHub](https://github.com/IEatBoot)
 
 ## **Education**
 
