@@ -12,9 +12,9 @@ As for the project itself, the ***Classics*** team is creating an online storefr
 
 The project started with compiling a group of aspiring engineers that shared the same passion for music:
 
-- Darsh Patel
-- Chris Pham
-- Josiah Regis
+- [Darsh Patel](/resumes/darsh.md)
+- [Chris Pham](/resumes/chris.md)
+- [Josiah Regis](/resumes/josiah.md)
 
 ---
 
