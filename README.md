@@ -1,4 +1,4 @@
-# Team 8 - Intro to SWE Project
+# Team 8 - The Classics
 
 
 
