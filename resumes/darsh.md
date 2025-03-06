@@ -1,6 +1,6 @@
 # Darsh Patel
 
-Marietta, GA | dpate213@students.kennesaw.edu | [Github]([duhrshh](https://github.com/duhrshh)) 
+Marietta, GA | dpate213@students.kennesaw.edu | [Github](https://github.com/duhrshh)) 
  ## **Education**
 
  #### **KENNESAW STATE UNIVERSITY** | **2022 - 2026**
