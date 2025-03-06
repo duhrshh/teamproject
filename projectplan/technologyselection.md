@@ -9,16 +9,16 @@ Our team collaborates through [**Microsoft Teams**](https://www.microsoft.com/en
 ### Programming Language:
 
 - [**C#**](https://learn.microsoft.com/en-us/dotnet/csharp/)
-  -  *Industry-Standard Choice*: C# is one of the most widely used programming languages in enterprise development, ensuring strong community support and long-term viability.
+  - *Industry-Standard Choice*: C# is one of the most widely used programming languages in enterprise development, ensuring strong community support and long-term viability.
   - *Future-Focused*: With continuous updates from Microsoft and strong cross-platform capabilities, C# remains a relevant and evolving language for modern web applications. 
   - *Integration Benefits*: Seamlessly integrates with .NET technologies, making it an ideal choice for a scalable and maintainable web application.  
 
 ### Web Framework:
 
 - [**ASP.NET Blazor**](https://learn.microsoft.com/en-us/aspnet/core/blazor/)
-  - *Industry-Standard Choice*: C# is one of the most widely used programming languages in enterprise development, ensuring strong community support and long-term viability.  
-  - *Future-Focused*: With continuous updates from Microsoft and strong cross-platform capabilities, C# remains a relevant and evolving language for modern web applications.  
-  - *Integration Benefits*: Seamlessly integrates with .NET technologies, making it an ideal choice for a scalable and maintainable web application.  
+  - *Modern Approach*: Blazor Server allows us to build interactive web applications using **C# on both the client and server**, reducing reliance on JavaScript frameworks.
+  - *Performance and Security*: The server-side rendering model ensures **faster initial load times** and keeps sensitive logic on the server, enhancing security.
+  - *Future Scalability*: As our project grows, we have the option to transition to **Blazor WebAssembly** or hybrid cloud-based models, keeping our platform adaptable to future trends.    
 
 ### Database & Storage:
 
