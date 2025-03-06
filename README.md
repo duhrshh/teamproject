@@ -32,11 +32,8 @@ Once we gathered, certain discussions were started in order to create an effecti
 #### Technology Selection
 
 - In order to familiarize ourselves with industry-standard tools, we chose to code the project using C# through an ASP.NET Blazor server. To store our data, we utilized an SQLite database. Microsoft Teams was also used to ensure effective communication throughout the length of the project.
-- Click here for a detailed explanation of what technologies and tools we are using and why.
+- Click [here](/projectplan/technologyselection.md) for a detailed explanation of what technologies and tools we are using and why.
 
 #### Gantt Chart
 
-- Click here to view our Project Plan in Gantt Chart form via. YouTrack.
-
-
-
+- Click [here](/projectplan/ganttchart.md) to view our Project Plan in Gantt Chart form via. YouTrack.
