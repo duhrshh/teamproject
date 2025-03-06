@@ -25,9 +25,9 @@ Once we gathered, certain discussions were started in order to create an effecti
 #### Team Assignments
 
 - In order to maximize efficiency throughout the project, we assigned certain roles to each contributor:
-  - Role 1:
-  - Role 2:
-  - Role 3:
+  - Role 1: [Project Manager](/projectplan/projectmanager)
+  - Role 2: [Front-End Developer](/projectplan/frontend)
+  - Role 3: [Back-End Developer](/projectplan/backend)
 
 #### Technology Selection
 
@@ -36,4 +36,4 @@ Once we gathered, certain discussions were started in order to create an effecti
 
 #### Gantt Chart
 
-- Click [here](/projectplan/ganttchart) to view our Project Plan in Gantt Chart form via. YouTrack.
+- Click [here](/projectplan/ganttchart.md) to view our Project Plan in Gantt Chart form via. YouTrack.
