@@ -9,7 +9,7 @@ Marietta, GA | jregis1@students.kennesaw.edu | [GitHub](https://github.com/IEatB
 
 - Bachelors Degree in Computer Science
 
-## Languages**
+## Languages
 
 - Ability to code in C#, Java, Python, SQL
 
