@@ -1,1 +1,18 @@
+# Darsh Patel
+
+Marietta, GA | dpate213@students.kennesaw.edu | [Github]([duhrshh](https://github.com/duhrshh)) 
+ ## **Education**
+
+ #### **KENNESAW STATE UNIVERSITY** | **2022 - 2026**
+
+ - Bachelors Degree in Computer Science
+
+ ## **Languages**
+
+ - Ability to code in C#, C++ Java, Python, SQL, and Lua
+
+ - Familiarity with IntelliJ IDEA, VSCode, Microsoft SQL Server, and 
+
+ ## **Coursework**
+ - Discrete Mathematics, Database Systems, Computer Organization & Architecture, Data Communications, and Data Structures & Algorithms
 
