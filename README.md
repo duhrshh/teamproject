@@ -36,4 +36,4 @@ Once we gathered, certain discussions were started in order to create an effecti
 
 #### Gantt Chart
 
-- Click [here](/projectplan/ganttchart.md) to view our Project Plan in Gantt Chart form via. YouTrack.
+- Click [here](/projectplan/ganttchart) to view our Project Plan in Gantt Chart form via. YouTrack.
