@@ -18,22 +18,28 @@ The project started with compiling a group of aspiring engineers that shared the
 
 ---
 
-## [Project Plan](https://www.loom.com/share/61d8d45837cb4d569c5de5bd90054811)
+## Project Plan
 
 Once we gathered, certain discussions were started in order to create an effective plan that would result in a proper product.
 
 #### Team Assignments
 
 - In order to maximize efficiency throughout the project, we assigned certain roles to each contributor:
-  - Role 1: [Project Manager](/projectplan/projectmanager.md) (Darsh)
-  - Role 2: [Front-End Developer](/projectplan/frontend.md) (Chris)
-  - Role 3: [Back-End Developer](/projectplan/backend.md) (Josiah)
+  - Role 1: [Project Manager](/projectplan/projectmanager) (Darsh)
+  - Role 2: [Front-End Developer](/projectplan/frontend) (Chris)
+  - Role 3: [Back-End Developer](/projectplan/backend) (Josiah)
 
 #### Technology Selection
 
-- In order to familiarize ourselves with industry-standard tools, we chose to code the project using C# through an ASP.NET Blazor server. To store our data, we utilized an SQLite database.
+- In order to familiarize ourselves with industry-standard tools, we chose to code the project using C# through an ASP.NET Blazor server. To store our data, we utilized an SQLite database. Microsoft Teams was also used to ensure effective communication throughout the length of the project.
 - Click [here](/projectplan/technologyselection.md) for a detailed explanation of what technologies and tools we are using and why.
 
 #### Gantt Chart
 
-- Click [here](/projectplan/ganttchart.png) to view our Project Plan in Gantt Chart form via. YouTrack.
+- Click [here](/projectplan/ganttchart.md) to view our Project Plan in Gantt Chart form via. YouTrack.
+
+---
+
+## Requirements
+
+WIP...
