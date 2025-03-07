@@ -18,7 +18,7 @@ The project started with compiling a group of aspiring engineers that shared the
 
 ---
 
-## Project Plan
+## [Project Plan](https://www.loom.com/share/61d8d45837cb4d569c5de5bd90054811)
 
 Once we gathered, certain discussions were started in order to create an effective plan that would result in a proper product.
 
