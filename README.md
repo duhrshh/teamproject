@@ -18,7 +18,7 @@ The project started with compiling a group of aspiring engineers that shared the
 
 ---
 
-## [Project Plan](https://www.loom.com/share/61d8d45837cb4d569c5de5bd90054811)
+## Project Plan
 
 Once we gathered, certain discussions were started in order to create an effective plan that would result in a proper product.
 
@@ -37,6 +37,9 @@ Once we gathered, certain discussions were started in order to create an effecti
 #### Gantt Chart
 
 - Click [here](/projectplan/ganttchart.png) to view our Project Plan in Gantt Chart form via. YouTrack.
+
+#### Presentation
+- Click [here](https://www.loom.com/share/61d8d45837cb4d569c5de5bd90054811) to view our Project Plan presentation in Loom.
 
 ---
 
