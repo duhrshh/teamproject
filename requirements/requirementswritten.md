@@ -7,11 +7,8 @@
         - **T8S-1**: _Register a new user_
             
             - _Priority_: Must Have
-                
             - _Effort_: 1 day
-                
             - _Type_: Functional
-                
             - The user must be able to self-register by creating an account with a unique username and a password that is at least 6 characters long. Admins cannot self-register.
                 
         - **T8S-2**: _Log in as a registered user_
