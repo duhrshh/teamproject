@@ -45,7 +45,7 @@ Once we gathered, certain discussions were started in order to create an effecti
 
 ## Requirements
 
-Here is a written list of all our of initial requirements illicitation.
+Here is a written list of all our of initial requirements elicitation.
 
 #### Use Case Diagram
 - Click [here]() for a detailed Use-Case Diagram for our project.
