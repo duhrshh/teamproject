@@ -45,8 +45,16 @@ Once we gathered, certain discussions were started in order to create an effecti
 
 ## Requirements
 
-WIP...
+Here is a written list of all our of initial requirements illicitation.
 
+#### Use Case Diagram
+- Click [here]() for a detailed Use-Case Diagram for our project.
+
+#### Decision Table
+- Click [here]() for a detailed view of our Decision Table for all processes in Version 1.
+
+#### Presentation
+- Click [here]() to view our Requirements presentation in Loom.
 ## List of Must-Have Features: (TEMP)
 - Self-Register - users must be able to create their own account
 - Login - all users must be able to login properly and [login] must work
