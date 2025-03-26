@@ -45,8 +45,9 @@ Once we gathered, certain discussions were started in order to create an effecti
 
 ## Requirements
 
-Here is a written list of all our of initial requirements elicitation.
+After a lengthy conversation with our customer, we were able to capture their required functionalities, features, and processes necessary for the project to be deemed successful. The requirements that were elicited from the aforementioned conversation are detailed [here](/requirements/elicitation.md).
 
+In summary, ... (WIP)
 #### Use Case Diagram
 - Click [here]() for a detailed Use-Case Diagram for our project.
 
