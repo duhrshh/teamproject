@@ -45,7 +45,7 @@ Once we gathered, certain discussions were started in order to create an effecti
 
 ## Requirements
 
-After a lengthy conversation with our customer, we were able to capture their required functionalities, features, and processes necessary for the project to be deemed successful. The requirements that were elicited from the aforementioned conversation are detailed [here](/requirements/elicitation.md).
+After a lengthy conversation with our customer, we were able to capture their required functionalities, features, and processes necessary for the project to be deemed successful. The requirements that were elicited from the aforementioned conversation are detailed [here](requirementswritten.md).
 
 In summary, ... (WIP)
 #### Use Case Diagram
