@@ -1,16 +1,17 @@
 # Decision Table
 
-| Conditions       |     |     |     |
-| ---------------- | --- | --- | --- |
-| Is Admin         | T   | F   |     |
-| Cart Empty       |     | T   | F   |
-| **Actions**      |     |     |     |
-| Promote          | T   | F   |     |
-| Add to Cart      |     | T   | F   |
-| Checkout         |     | F   | T   |
-| Show/Remove Cart |     | T   | T   |
-| Add Inventory    | T   | F   |     |
+| Conditions                     |     |     |     |
+| ------------------------------ | --- | --- | --- |
+| Is Admin                       | T   | F   |     |
+| Cart Empty                     |     | T   | F   |
+| **Actions**                    |     |     |     |
+| Promote                        | T   | F   |     |
+| Add to Cart                    |     | T   | F   |
+| Checkout                       |     | F   | T   |
+| Show/Remove Cart               |     | T   | T   |
+| Inventory & Receipt Management | T   | F   |     |
 
+---
 #### Logic Overview:
 - A user or admin must be logged in to perform any actions listed in the table.
 - **Login is a prerequisite** for:
