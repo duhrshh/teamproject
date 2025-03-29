@@ -58,4 +58,4 @@ The detailed requirements that were elicited from the aforementioned conversatio
 - Click [here](/requirements/decisiontable.md) for a detailed view of our Decision Table for all processes in Version 1.
 
 #### Presentation
-- Click [here]() to view our Requirements presentation in Loom.
+- Click [here](https://www.loom.com/share/069d267cb07d4b3eb83f0d792977e7f5?t=13) to view our Requirements presentation in Loom.
