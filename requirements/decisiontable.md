@@ -4,7 +4,7 @@
 | ------------------------------ | --- | --- | --- |
 | Is Admin                       | T   | F   |     |
 | Cart Empty                     |     | T   | F   |
-| **Actions**                    |     |     |     |
+|          **Actions**           |     |     |     |
 | Promote                        | T   | F   |     |
 | Add to Cart                    |     | T   | F   |
 | Checkout                       |     | F   | T   |
