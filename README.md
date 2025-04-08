@@ -69,4 +69,4 @@ Upon drafting our requirements, we got together to create a prototype for our we
 - Click [here](https://marvelapp.com/prototype/g080003) for a link to our prototype using Marvel App.
 
 #### Presentation
-- Click [here](https://www.loom.com/share/7d4deb348f73421d88ecc8f2680b72e5)) to view our User Interface Design presentation in Loom.
+- Click [here](https://www.loom.com/share/7d4deb348f73421d88ecc8f2680b72e5) to view our User Interface Design presentation in Loom.
