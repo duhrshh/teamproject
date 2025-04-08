@@ -59,3 +59,14 @@ The detailed requirements that were elicited from the aforementioned conversatio
 
 #### Presentation
 - Click [here](https://www.loom.com/share/069d267cb07d4b3eb83f0d792977e7f5?t=13) to view our Requirements presentation in Loom.
+
+---
+
+## User Interface Design
+
+Upon drafting our requirements, we got together to create a prototype for our website and all the inner processes.
+#### High Fidelity Mockup
+- Click [here](https://marvelapp.com/prototype/g080003) for a link to our prototype using Marvel App.
+
+#### Presentation
+- Click [here]([Website Presentation Overview](https://www.loom.com/share/7d4deb348f73421d88ecc8f2680b72e5)) to view our User Interface Design presentation in Loom.
