@@ -64,30 +64,30 @@ These support user authentication, admin functionality, vinyl inventory manageme
 
 ### User Table
 
-| UserId | Username   | PasswordHash | Email                | IsAdmin |
-|--------|------------|---------------|-----------------------|---------|
-| 1      | admin      | [hashed]      | admin@classics.com    | True    |
-| 2      | jdoe       | [hashed]      | jdoe@email.com        | False   |
-| 3      | cratehunter| [hashed]      | vinyl@cratehunt.com   | False   |
+| UserId | Username    | PasswordHash | Email               | IsAdmin |
+| ------ | ----------- | ------------ | ------------------- | ------- |
+| 1      | admin       | adminTest321 | admin@classics.com  | True    |
+| 2      | jdoe        | doejohn1738  | jdoe@email.com      | False   |
+| 3      | cratehunter | Yeehaww!     | vinyl@cratehunt.com | False   |
 
 ---
 
 ### Order Table
 
-| OrderId | UserId | ShippingAddress     | Phone         | CreditCardLast4 | ShippingSpeed | Subtotal | Tax  | ShippingCost | Total  | OrderDate           |
-|---------|--------|---------------------|---------------|------------------|----------------|----------|------|---------------|--------|----------------------|
-| 1       | 2      | 123 Main St, NY     | +15551234567  | 5678             | Overnight      | 75.00    | 4.50 | 29.00         | 108.50 | 2024-04-18 14:23:00  |
-| 2       | 3      | 9 Grove Ave, IL     | +15559876543  | 1234             | Ground         | 25.00    | 1.50 | 0.00          | 26.50  | 2024-04-19 10:02:00  |
+| OrderId | UserId | ShippingAddress | Phone        | CreditCardLast4 | ShippingSpeed | Subtotal | Tax  | ShippingCost | Total  | OrderDate           |
+| ------- | ------ | --------------- | ------------ | --------------- | ------------- | -------- | ---- | ------------ | ------ | ------------------- |
+| 1       | 2      | 123 Main St, NY | +15551234567 | 5678            | Overnight     | 75.00    | 4.50 | 29.00        | 108.50 | 2024-04-18 14:23:00 |
+| 2       | 3      | 9 Grove Ave, IL | +15559876543 | 1234            | Ground        | 25.00    | 1.50 | 0.00         | 26.50  | 2024-04-19 10:02:00 |
 
 ---
 
 ### InventoryItem Table
 
-| ItemId | OrderId | Name                  | Description            | Price | ImageUrl               | IsSold |
-|--------|---------|-----------------------|------------------------|--------|--------------------------|--------|
-| 1      | 1       | Dark Side of the Moon | 1973 Original Pressing | 75.00 | /images/darkside.jpg     | True   |
-| 2      | NULL    | Thriller              | MJ’s bestselling album | 25.00 | /images/thriller.jpg     | False  |
-| 3      | NULL    | Nevermind             | Nirvana 1991 Classic   | 30.00 | /images/nevermind.jpg    | False  |
+| ItemId | OrderId | Name                  | Description            | Price | ImageUrl              | IsSold |
+| ------ | ------- | --------------------- | ---------------------- | ----- | --------------------- | ------ |
+| 1      | 1       | Dark Side of the Moon | 1973 Original Pressing | 75.00 | /images/darkside.jpg  | True   |
+| 2      | NULL    | Thriller              | MJ’s bestselling album | 25.00 | /images/thriller.jpg  | False  |
+| 3      | NULL    | Nevermind             | Nirvana 1991 Classic   | 30.00 | /images/nevermind.jpg | False  |
 
 ---
 
@@ -97,19 +97,19 @@ These records will exist **when the application is first launched**.
 
 ### User Table
 
-| Username | PasswordHash (sample) | Email             | IsAdmin |
-|----------|------------------------|--------------------|---------|
-| admin    | [hashed_admin_pw]      | admin@classics.com | True    |
+| Username | PasswordHash (sample) | Email              | IsAdmin |
+| -------- | --------------------- | ------------------ | ------- |
+| admin    | adminTest321          | admin@classics.com | True    |
 
 ---
 
 ### InventoryItem Table
 
-| Name         | Description            | Price | ImageUrl               | IsSold |
-|--------------|------------------------|--------|--------------------------|--------|
-| Abbey Road   | The Beatles – 1969     | 50.00 | /images/abbeyroad.jpg   | False  |
-| Rumours      | Fleetwood Mac – 1977   | 35.00 | /images/rumours.jpg     | False  |
-| Purple Rain  | Prince – 1984          | 40.00 | /images/purplerain.jpg  | False  |
+| Name        | Description          | Price | ImageUrl               | IsSold |
+| ----------- | -------------------- | ----- | ---------------------- | ------ |
+| Abbey Road  | The Beatles – 1969   | 50.00 | /images/abbeyroad.jpg  | False  |
+| Rumours     | Fleetwood Mac – 1977 | 35.00 | /images/rumours.jpg    | False  |
+| Purple Rain | Prince – 1984        | 40.00 | /images/purplerain.jpg | False  |
 
 ---
 
