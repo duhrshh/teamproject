@@ -10,44 +10,9 @@ These support user authentication, admin functionality, vinyl inventory manageme
 
 ---
 
-### Entity Relationship Diagram (Crow’s Foot Notation – Mermaid)
+### [Entity Relationship Diagram (Crow’s Foot Notation – Mermaid)](/technicaldesign/diagram.md)
 
-erDiagram
-    User ||--o{ Order : places
-    Order ||--|{ InventoryItem : contains
-
-    User {
-        int UserId
-        string Username
-        string PasswordHash
-        string Email
-        bool IsAdmin
-    }
-
-    Order {
-        int OrderId
-        int UserId
-        string ShippingAddress
-        string Phone
-        string CreditCardLast4
-        string ShippingSpeed
-        decimal Subtotal
-        decimal Tax
-        decimal ShippingCost
-        decimal Total
-        datetime OrderDate
-    }
-
-    InventoryItem {
-        int ItemId
-        int OrderId
-        string Name
-        string Description
-        decimal Price
-        string ImageUrl
-        bool IsSold
-    }
-
+- An image of the ERD Diagram can be found [here](picture.png).
 
 ##  Table of Field Descriptions (SQL-Oriented)
 
