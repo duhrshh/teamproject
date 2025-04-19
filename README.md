@@ -77,14 +77,17 @@ Upon drafting our requirements, we got together to create a prototype for our we
 After careful consideration, we determined what tools to utilize in order to create our product. The following solutions were deemed to be the most efficient at the time, and were selected with concern for real-time efficiency as well as future maintainability.
 
 #### Implementation Languages & Frameworks
-- Click [here]() for a detailed review of our languages and framework selection.
+- Click [here](/technicaldesign/languagesframeworks.md) for a detailed review of our languages and framework selection.
 
 #### Entity Relationship Diagrams
-- Click [here]() for all our materials relating to ERD diagrams.
+- Click [here](/technicaldesign/erd.md) for all our materials relating to ERD diagrams.
 
 #### Data Storage Plan
-- Click [here]() for an overview of our storage plan.
+- Click [here](/technicaldesign/datastorage.md) for an overview of our storage plan.
 
 #### Coding Style Guide
-- Click [here]() to view a guide to our coding style.
+- Click [here](/technicaldesign/codingstyle) to view a guide to our coding style.
+
+#### Presentation
+- Click [here]() to view our Technical Design presentation in Loom.
 
