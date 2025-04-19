@@ -86,7 +86,7 @@ After careful consideration, we determined what tools to utilize in order to cre
 - Click [here](/technicaldesign/datastorage.md) for an overview of our storage plan.
 
 #### Coding Style Guide
-- Click [here](/technicaldesign/codingstyle) to view a guide to our coding style.
+- Click [here](/technicaldesign/codingstyle.md) to view a guide to our coding style.
 
 #### Presentation
 - Click [here]() to view our Technical Design presentation in Loom.
