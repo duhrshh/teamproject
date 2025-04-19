@@ -34,4 +34,3 @@
          string ImageUrl
          bool IsSold
      }
-}
