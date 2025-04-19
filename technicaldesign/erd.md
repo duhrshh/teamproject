@@ -49,10 +49,11 @@ These support user authentication, admin functionality, vinyl inventory manageme
          bool IsSold
      }
 }
+```
 
-## 📋 Table of Field Descriptions (SQL-Oriented)
+##  Table of Field Descriptions (SQL-Oriented)
 
-### 🧍 User Table
+### User Table
 
 | Field Name    | Data Type       | Required | Key Type      | Description |
 |---------------|------------------|----------|---------------|-------------|
@@ -64,7 +65,7 @@ These support user authentication, admin functionality, vinyl inventory manageme
 
 ---
 
-### 📦 Order Table
+### Order Table
 
 | Field Name        | Data Type         | Required | Key Type      | Description |
 |-------------------|-------------------|----------|---------------|-------------|
@@ -82,7 +83,7 @@ These support user authentication, admin functionality, vinyl inventory manageme
 
 ---
 
-### 💿 InventoryItem Table
+### InventoryItem Table
 
 | Field Name     | Data Type         | Required | Key Type     | Description |
 |----------------|-------------------|----------|--------------|-------------|
@@ -96,7 +97,7 @@ These support user authentication, admin functionality, vinyl inventory manageme
 
 ---
 
-## 🧾 Example Data
+## Example Data
 
 ### User Table
 
@@ -127,7 +128,7 @@ These support user authentication, admin functionality, vinyl inventory manageme
 
 ---
 
-## 🌱 Seed Data
+## Seed Data
 
 These records will exist **when the application is first launched**.
 
