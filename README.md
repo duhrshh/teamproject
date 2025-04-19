@@ -70,3 +70,21 @@ Upon drafting our requirements, we got together to create a prototype for our we
 
 #### Presentation
 - Click [here](https://www.loom.com/share/7d4deb348f73421d88ecc8f2680b72e5) to view our User Interface Design presentation in Loom.
+
+---
+## Technical Design
+
+After careful consideration, we determined what tools to utilize in order to create our product. The following solutions were deemed to be the most efficient at the time, and were selected with concern for real-time efficiency as well as future maintainability.
+
+#### Implementation Languages & Frameworks
+- Click [here]() for a detailed review of our languages and framework selection.
+
+#### Entity Relationship Diagrams
+- Click [here]() for all our materials relating to ERD diagrams.
+
+#### Data Storage Plan
+- Click [here]() for an overview of our storage plan.
+
+#### Coding Style Guide
+- Click [here]() to view a guide to our coding style.
+
