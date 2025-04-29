@@ -24,7 +24,7 @@ All business logic lives in services; UI is cleanly separated into reusable Blaz
 - (Optional) [dotnet-ef CLI tools](https://docs.microsoft.com/ef/core/cli/dotnet)  
 - A modern browser (Edge, Chrome, Firefox, Safari)
 
-### Getting Started: Follow the instructions below or watch [this](https://www.loom.com/share/b8a258fe8c1041b8a50905dd37de82c9)
+### Getting Started: Follow the instructions below or watch [this](https://www.loom.com/share/b8a258fe8c1041b8a50905dd37de82c9).
 
 1. **Extract the archive**  
 	On Windows: right-click → “Extract All…” (or use [7-Zip](https://www.7-zip.org/) / WinRAR)  
