@@ -1,6 +1,5 @@
 # Team 8 - The Classics
 
-
 Welcome to our team repository, created for our class project for SWE 3313. All possible documentation will be added here as the project is developed and will ultimately lead to a finished product ready for use.
 
 As for the project itself, the ***Classics*** team is creating an online storefront to sell vintage vinyls of various musical genres with the use of C# and ASP.NET Core Blazor. Walk with us as we learn about the intricacies of developing and managing solutions for our clients.
@@ -46,9 +45,9 @@ Navigate to `https://localhost:5001` (or port shown in console).
 
 The project started with compiling a group of aspiring engineers that shared the same passion for music:
 
-- [Darsh Patel](/resumes/darsh.md)
-- [Chris Pham](/resumes/chris.md)
-- [Josiah Regis](/resumes/josiah.md)
+- [Darsh Patel](documentation/resumes/darsh.md)
+- [Chris Pham](documentation/resumes/chris.md)
+- [Josiah Regis](documentation/resumes/josiah.md)
 
 ---
 
@@ -59,18 +58,18 @@ Once we gathered, certain discussions were started in order to create an effecti
 #### Team Assignments
 
 - In order to maximize efficiency throughout the project, we assigned certain roles to each contributor:
-  - [Project Manager](/projectplan/projectmanager.md) (Darsh)
-  - [Front-End Developer](/projectplan/frontend.md) (Chris)
-  - [Back-End Developer](/projectplan/backend.md) (Josiah)
+  - [Project Manager](documentation/projectplan/projectmanager.md) (Darsh)
+  - [Front-End Developer](documentation/projectplan/frontend.md) (Chris)
+  - [Back-End Developer](documentation/projectplan/backend.md) (Josiah)
 
 #### Technology Selection
 
 - In order to familiarize ourselves with industry-standard tools, we chose to code the project using C# through an ASP.NET Blazor server. To store our data, we utilized an SQLite database. Microsoft Teams was also used to ensure effective communication throughout the length of the project.
-- Click [here](/projectplan/technologyselection.md) for a detailed explanation of what technologies and tools we are using and why.
+- Click [here](documentation/projectplan/technologyselection.md) for a detailed explanation of what technologies and tools we are using and why.
 
 #### Gantt Chart
 
-- Click [here](/projectplan/ganttchart.png) to view our Project Plan in Gantt Chart form via. YouTrack.
+- Click [here](documentation/projectplan/ganttchart.png) to view our Project Plan in Gantt Chart form via. YouTrack.
 
 #### Presentation
 - Click [here](https://www.loom.com/share/61d8d45837cb4d569c5de5bd90054811) to view our Project Plan presentation in Loom.
@@ -83,13 +82,13 @@ After a lengthy conversation with our customer, we were able to capture their re
 
 In summary, we defined functionality for an online vinyl store that supports account creation, inventory browsing, and secure checkout. Users can register, log in, add unique one-off vinyl records to their cart, and complete purchases using validated payment and shipping information. Admins have extended privileges, including promoting users, managing inventory, and accessing sales reports. The system ensures price accuracy, excludes sold items from listings, and provides high-fidelity UI mockups and receipt displays for clarity and consistency.
 
-The detailed requirements that were elicited from the aforementioned conversation are detailed [here](/requirements/requirementswritten.md).
+The detailed requirements that were elicited from the aforementioned conversation are detailed [here](documentation/requirements/requirementswritten.md).
 
 #### Use Case Diagram
-- Click [here](/requirements/usecasediagram.md) for a detailed Use-Case Diagram for our project.
+- Click [here](documentation/requirements/usecasediagram.md) for a detailed Use-Case Diagram for our project.
 
 #### Decision Table
-- Click [here](/requirements/decisiontable.md) for a detailed view of our Decision Table for all processes in Version 1.
+- Click [here](documentation/requirements/decisiontable.md) for a detailed view of our Decision Table for all processes in Version 1.
 
 #### Presentation
 - Click [here](https://www.loom.com/share/069d267cb07d4b3eb83f0d792977e7f5?t=13) to view our Requirements presentation in Loom.
@@ -111,16 +110,16 @@ Upon drafting our requirements, we got together to create a prototype for our we
 After careful consideration, we determined what tools to utilize in order to create our product. The following solutions were deemed to be the most efficient at the time, and were selected with concern for real-time efficiency as well as future maintainability.
 
 #### Implementation Languages & Frameworks
-- Click [here](/technicaldesign/languagesframeworks.md) for a detailed review of our languages and framework selection.
+- Click [here](documentation/technicaldesign/languagesframeworks.md) for a detailed review of our languages and framework selection.
 
 #### Entity Relationship Diagrams
-- Click [here](/technicaldesign/erd.md) for all our materials relating to ERD diagrams.
+- Click [here](documentation/technicaldesign/erd.md) for all our materials relating to ERD diagrams.
 
 #### Data Storage Plan
-- Click [here](/technicaldesign/datastorage.md) for an overview of our storage plan.
+- Click [here](documentation/technicaldesign/datastorage.md) for an overview of our storage plan.
 
 #### Coding Style Guide
-- Click [here](technicaldesign/codingstyle.md) to view a guide to our coding style.
+- Click [here](documentation/technicaldesign/codingstyle.md) to view a guide to our coding style.
 
 #### Presentation
 - Click [here](https://www.loom.com/share/e0a141f35c274266b0f87a961a50ddfb) to view our Technical Design presentation in Loom.
@@ -129,7 +128,6 @@ After careful consideration, we determined what tools to utilize in order to cre
 ## Implementation
 
 Following weeks of immense planning and preparation, we started our final implementation of our solution. Throughout the process, we tested the application numerous times to assure the best balance of efficiency and design was achieved.
-
 
 #### Implementation Demonstrations.
 - Click [here](https://www.loom.com/share/b8a258fe8c1041b8a50905dd37de82c9) for a guide on how to download, install, and run our application on your local machine.
