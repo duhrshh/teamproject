@@ -1,0 +1,59 @@
+﻿@page "/login"
+
+@using System.ComponentModel.DataAnnotations
+
+@inject TheClassics.Services.AuthService AuthService
+@inject NavigationManager NavManager
+
+<div class="main-content">
+    <h2>Login</h2>
+
+    <div class="form-container">
+        <EditForm Model="_loginModel" OnValidSubmit="HandleLogin">
+            <DataAnnotationsValidator />
+            <ValidationSummary />
+
+            <div class="field">
+                <label for="username">Username</label>
+                <InputText id="username" @bind-Value="_loginModel.Username" />
+            </div>
+
+            <div class="field">
+                <label for="password">Password</label>
+                <InputText id="password" @bind-Value="_loginModel.Password" type="password" />
+            </div>
+
+            <button type="submit">Login</button>
+        </EditForm>
+
+        <p class="small-text">
+            Don’t have an account?
+            <NavLink href="/register" class="link">Register</NavLink>
+        </p>
+
+        @if (_loginFailed)
+        {
+            <p class="error">Invalid credentials, please try again.</p>
+        }
+    </div>
+</div>
+
+@code {
+    private LoginModel _loginModel = new();
+    private bool _loginFailed;
+
+    private async Task HandleLogin()
+    {
+        _loginFailed = !await AuthService.LoginAsync(_loginModel.Username, _loginModel.Password);
+        if (!_loginFailed)
+        {
+            NavManager.NavigateTo("/inventory");
+        }
+    }
+
+    private class LoginModel
+    {
+        [Required] public string Username { get; set; } = string.Empty;
+        [Required] public string Password { get; set; } = string.Empty;
+    }
+}

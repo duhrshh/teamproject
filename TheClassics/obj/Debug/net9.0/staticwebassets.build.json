@@ -1,0 +1,2484 @@
+{
+  "Version": 1,
+  "Hash": "I9zaI/VM7KNHmzA4pWiz16eiT9qfDMRwRYRgWvvh6Ig=",
+  "Source": "TheClassics",
+  "BasePath": "_content/TheClassics",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "TheClassics\\wwwroot",
+      "Source": "TheClassics",
+      "ContentRoot": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\",
+      "BasePath": "_content/TheClassics",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\obj\\Debug\\net9.0\\compressed\\hb162pfiqj-gpya2jsany.gz",
+      "SourceId": "TheClassics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/TheClassics",
+      "RelativePath": "css/site#[.{fingerprint=gpya2jsany}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\css\\site.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "o2que7tbbh",
+      "Integrity": "gLnHzGXiOmxyzBxYwFJpH9KFsq1TklT4FoH9nj44dnQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\obj\\Debug\\net9.0\\compressed\\nw44zer4ka-nagimz5o15.gz",
+      "SourceId": "TheClassics",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/TheClassics",
+      "RelativePath": "TheClassics#[.{fingerprint=nagimz5o15}]!.bundle.scp.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\TheClassics.bundle.scp.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "ygh6hld114",
+      "Integrity": "Di2lUSzIF6Ghina6rsL0jWHLRtVuxTe/QwS59HaRAP8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\TheClassics.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\obj\\Debug\\net9.0\\compressed\\od6imtbh7b-nagimz5o15.gz",
+      "SourceId": "TheClassics",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/TheClassics",
+      "RelativePath": "TheClassics#[.{fingerprint=nagimz5o15}]?.styles.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\obj\\Debug\\net9.0\\scopedcss\\bundle\\TheClassics.styles.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "ygh6hld114",
+      "Integrity": "Di2lUSzIF6Ghina6rsL0jWHLRtVuxTe/QwS59HaRAP8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\obj\\Debug\\net9.0\\scopedcss\\bundle\\TheClassics.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\obj\\Debug\\net9.0\\scopedcss\\bundle\\TheClassics.styles.css",
+      "SourceId": "TheClassics",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\obj\\Debug\\net9.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/TheClassics",
+      "RelativePath": "TheClassics#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "nagimz5o15",
+      "Integrity": "/7Tb+tLKMh1ZerJQ4sPf0JJIu9/7ZZiEEjwoKDxUkyI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\obj\\Debug\\net9.0\\scopedcss\\bundle\\TheClassics.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\TheClassics.bundle.scp.css",
+      "SourceId": "TheClassics",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/TheClassics",
+      "RelativePath": "TheClassics#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "nagimz5o15",
+      "Integrity": "/7Tb+tLKMh1ZerJQ4sPf0JJIu9/7ZZiEEjwoKDxUkyI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\TheClassics.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\css\\site.css",
+      "SourceId": "TheClassics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\",
+      "BasePath": "_content/TheClassics",
+      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gpya2jsany",
+      "Integrity": "zINXEJ5x0PT2lVRiDyLo2D4UFfvlLJDucU/jTPxNuA8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\images\\abbey_road.jpg",
+      "SourceId": "TheClassics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\",
+      "BasePath": "_content/TheClassics",
+      "RelativePath": "images/abbey_road#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a824m46o3v",
+      "Integrity": "tlUfAEiwId7Vyp/994SOQDsC53YEPcgQFDHkg7TRvBw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\abbey_road.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\images\\darkside.jpg",
+      "SourceId": "TheClassics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\",
+      "BasePath": "_content/TheClassics",
+      "RelativePath": "images/darkside#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "im4gdyixrw",
+      "Integrity": "atBiOniYxcdrSPMX31+IMe0X/PNIPfOP9jumofhdQD4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\darkside.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\images\\Fly_Me_To_The_Moon.png",
+      "SourceId": "TheClassics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\",
+      "BasePath": "_content/TheClassics",
+      "RelativePath": "images/Fly_Me_To_The_Moon#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "20ejsoypjs",
+      "Integrity": "XtZNhNLmLZPO68zU8wO5T+vxz7XRNWRhM2F0MJb+EnQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Fly_Me_To_The_Moon.png"
+    },
+    {
+      "Identity": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\images\\FS-My_Way.png",
+      "SourceId": "TheClassics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\",
+      "BasePath": "_content/TheClassics",
+      "RelativePath": "images/FS-My_Way#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "r8caz1e7l4",
+      "Integrity": "e6MelN6LBJ8IHUN4GT7wPQ3VTMlZGFY59LMJTql0CWs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\FS-My_Way.png"
+    },
+    {
+      "Identity": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\images\\MB_JD-Spicy_M.png",
+      "SourceId": "TheClassics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\",
+      "BasePath": "_content/TheClassics",
+      "RelativePath": "images/MB_JD-Spicy_M#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ox7uai82ht",
+      "Integrity": "VKrQpofA9QG3yezmaeA8xwstpOUWd9DiocoEctadS1A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\MB_JD-Spicy_M.png"
+    },
+    {
+      "Identity": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\images\\MB-Christmas.png",
+      "SourceId": "TheClassics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\",
+      "BasePath": "_content/TheClassics",
+      "RelativePath": "images/MB-Christmas#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rlha7ccjcx",
+      "Integrity": "YfERpnRNAEGzv/ArV9pXOwhht09Ej3BpB9iogAy88o0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\MB-Christmas.png"
+    },
+    {
+      "Identity": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\images\\MB-Feeling_Good.png",
+      "SourceId": "TheClassics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\",
+      "BasePath": "_content/TheClassics",
+      "RelativePath": "images/MB-Feeling_Good#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lamxh9hlfc",
+      "Integrity": "HbSVdXc4+LRr84VBlt8LPrQCbYGippX9P01M69fmcPY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\MB-Feeling_Good.png"
+    },
+    {
+      "Identity": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\images\\MB-Higher.jpeg",
+      "SourceId": "TheClassics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\",
+      "BasePath": "_content/TheClassics",
+      "RelativePath": "images/MB-Higher#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sxx3xjj756",
+      "Integrity": "kKv5E5ikJcwHlWytgnZFLIFpcU6uKcV+RS5mBB56kzM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\MB-Higher.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\images\\MB-Sway.jpeg",
+      "SourceId": "TheClassics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\",
+      "BasePath": "_content/TheClassics",
+      "RelativePath": "images/MB-Sway#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fmzf87z525",
+      "Integrity": "F1YfUt7poatWj045rU2HIuB14fEdOcXG93/pyZCBQ98=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\MB-Sway.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\images\\MJ-Smooth_Criminal.jpeg",
+      "SourceId": "TheClassics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\",
+      "BasePath": "_content/TheClassics",
+      "RelativePath": "images/MJ-Smooth_Criminal#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4aygmp4st1",
+      "Integrity": "dNT5P74sh5HZ1gqpsuhURXrN7X9yKO/CK/ri+IP0UO8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\MJ-Smooth_Criminal.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\images\\MJ-Thriller.jpeg",
+      "SourceId": "TheClassics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\",
+      "BasePath": "_content/TheClassics",
+      "RelativePath": "images/MJ-Thriller#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1x0zr1vfea",
+      "Integrity": "m8HpDLiOGPObQf/uM9XmVBHGhv6Kxuyz35DW/Nx073c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\MJ-Thriller.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\images\\rumours.jpg",
+      "SourceId": "TheClassics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\",
+      "BasePath": "_content/TheClassics",
+      "RelativePath": "images/rumours#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kwtlg01583",
+      "Integrity": "pOqTgpJAA4U673hQNkkBmXc+aqjCtLOTujbfqQksRhQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\rumours.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\images\\thriller.png",
+      "SourceId": "TheClassics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\",
+      "BasePath": "_content/TheClassics",
+      "RelativePath": "images/thriller#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ytxn89qtcs",
+      "Integrity": "+kgx6rYfaxHhxawSkvgMmsL4lCkPf1iBc9wHj3Y9BwE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\thriller.png"
+    },
+    {
+      "Identity": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\images\\vinyl_player.jpg",
+      "SourceId": "TheClassics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\",
+      "BasePath": "_content/TheClassics",
+      "RelativePath": "images/vinyl_player#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "89101goc6y",
+      "Integrity": "XGcmC8dJ5rY0D8g/XOm3/VgaFMhDEJJU1Rk+cn+24Cs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\vinyl_player.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\obj\\Debug\\net9.0\\compressed\\hb162pfiqj-gpya2jsany.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001298701299"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "769"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gLnHzGXiOmxyzBxYwFJpH9KFsq1TklT4FoH9nj44dnQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 01:19:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"zINXEJ5x0PT2lVRiDyLo2D4UFfvlLJDucU/jTPxNuA8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zINXEJ5x0PT2lVRiDyLo2D4UFfvlLJDucU/jTPxNuA8="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2559"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zINXEJ5x0PT2lVRiDyLo2D4UFfvlLJDucU/jTPxNuA8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 01:19:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zINXEJ5x0PT2lVRiDyLo2D4UFfvlLJDucU/jTPxNuA8="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.gz",
+      "AssetFile": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\obj\\Debug\\net9.0\\compressed\\hb162pfiqj-gpya2jsany.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "769"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gLnHzGXiOmxyzBxYwFJpH9KFsq1TklT4FoH9nj44dnQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 01:19:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gLnHzGXiOmxyzBxYwFJpH9KFsq1TklT4FoH9nj44dnQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.gpya2jsany.css",
+      "AssetFile": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\obj\\Debug\\net9.0\\compressed\\hb162pfiqj-gpya2jsany.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001298701299"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "769"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gLnHzGXiOmxyzBxYwFJpH9KFsq1TklT4FoH9nj44dnQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 01:19:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"zINXEJ5x0PT2lVRiDyLo2D4UFfvlLJDucU/jTPxNuA8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gpya2jsany"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zINXEJ5x0PT2lVRiDyLo2D4UFfvlLJDucU/jTPxNuA8="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.gpya2jsany.css",
+      "AssetFile": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2559"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zINXEJ5x0PT2lVRiDyLo2D4UFfvlLJDucU/jTPxNuA8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 01:19:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gpya2jsany"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zINXEJ5x0PT2lVRiDyLo2D4UFfvlLJDucU/jTPxNuA8="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.gpya2jsany.css.gz",
+      "AssetFile": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\obj\\Debug\\net9.0\\compressed\\hb162pfiqj-gpya2jsany.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "769"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gLnHzGXiOmxyzBxYwFJpH9KFsq1TklT4FoH9nj44dnQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 01:19:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gpya2jsany"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gLnHzGXiOmxyzBxYwFJpH9KFsq1TklT4FoH9nj44dnQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/abbey_road.a824m46o3v.jpg",
+      "AssetFile": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\images\\abbey_road.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "159905"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tlUfAEiwId7Vyp/994SOQDsC53YEPcgQFDHkg7TRvBw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 00:55:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a824m46o3v"
+        },
+        {
+          "Name": "label",
+          "Value": "images/abbey_road.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tlUfAEiwId7Vyp/994SOQDsC53YEPcgQFDHkg7TRvBw="
+        }
+      ]
+    },
+    {
+      "Route": "images/abbey_road.jpg",
+      "AssetFile": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\images\\abbey_road.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "159905"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tlUfAEiwId7Vyp/994SOQDsC53YEPcgQFDHkg7TRvBw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 00:55:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tlUfAEiwId7Vyp/994SOQDsC53YEPcgQFDHkg7TRvBw="
+        }
+      ]
+    },
+    {
+      "Route": "images/darkside.im4gdyixrw.jpg",
+      "AssetFile": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\images\\darkside.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49733"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"atBiOniYxcdrSPMX31+IMe0X/PNIPfOP9jumofhdQD4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 01:01:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "im4gdyixrw"
+        },
+        {
+          "Name": "label",
+          "Value": "images/darkside.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-atBiOniYxcdrSPMX31+IMe0X/PNIPfOP9jumofhdQD4="
+        }
+      ]
+    },
+    {
+      "Route": "images/darkside.jpg",
+      "AssetFile": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\images\\darkside.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49733"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"atBiOniYxcdrSPMX31+IMe0X/PNIPfOP9jumofhdQD4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 01:01:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-atBiOniYxcdrSPMX31+IMe0X/PNIPfOP9jumofhdQD4="
+        }
+      ]
+    },
+    {
+      "Route": "images/Fly_Me_To_The_Moon.20ejsoypjs.png",
+      "AssetFile": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\images\\Fly_Me_To_The_Moon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "989308"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XtZNhNLmLZPO68zU8wO5T+vxz7XRNWRhM2F0MJb+EnQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 00:42:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "20ejsoypjs"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Fly_Me_To_The_Moon.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XtZNhNLmLZPO68zU8wO5T+vxz7XRNWRhM2F0MJb+EnQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/Fly_Me_To_The_Moon.png",
+      "AssetFile": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\images\\Fly_Me_To_The_Moon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "989308"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XtZNhNLmLZPO68zU8wO5T+vxz7XRNWRhM2F0MJb+EnQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 00:42:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XtZNhNLmLZPO68zU8wO5T+vxz7XRNWRhM2F0MJb+EnQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/FS-My_Way.png",
+      "AssetFile": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\images\\FS-My_Way.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "610322"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e6MelN6LBJ8IHUN4GT7wPQ3VTMlZGFY59LMJTql0CWs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 00:42:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-e6MelN6LBJ8IHUN4GT7wPQ3VTMlZGFY59LMJTql0CWs="
+        }
+      ]
+    },
+    {
+      "Route": "images/FS-My_Way.r8caz1e7l4.png",
+      "AssetFile": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\images\\FS-My_Way.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "610322"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e6MelN6LBJ8IHUN4GT7wPQ3VTMlZGFY59LMJTql0CWs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 00:42:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r8caz1e7l4"
+        },
+        {
+          "Name": "label",
+          "Value": "images/FS-My_Way.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-e6MelN6LBJ8IHUN4GT7wPQ3VTMlZGFY59LMJTql0CWs="
+        }
+      ]
+    },
+    {
+      "Route": "images/MB_JD-Spicy_M.ox7uai82ht.png",
+      "AssetFile": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\images\\MB_JD-Spicy_M.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "126181"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VKrQpofA9QG3yezmaeA8xwstpOUWd9DiocoEctadS1A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 00:42:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ox7uai82ht"
+        },
+        {
+          "Name": "label",
+          "Value": "images/MB_JD-Spicy_M.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VKrQpofA9QG3yezmaeA8xwstpOUWd9DiocoEctadS1A="
+        }
+      ]
+    },
+    {
+      "Route": "images/MB_JD-Spicy_M.png",
+      "AssetFile": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\images\\MB_JD-Spicy_M.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "126181"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VKrQpofA9QG3yezmaeA8xwstpOUWd9DiocoEctadS1A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 00:42:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VKrQpofA9QG3yezmaeA8xwstpOUWd9DiocoEctadS1A="
+        }
+      ]
+    },
+    {
+      "Route": "images/MB-Christmas.png",
+      "AssetFile": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\images\\MB-Christmas.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "833101"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YfERpnRNAEGzv/ArV9pXOwhht09Ej3BpB9iogAy88o0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 00:42:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YfERpnRNAEGzv/ArV9pXOwhht09Ej3BpB9iogAy88o0="
+        }
+      ]
+    },
+    {
+      "Route": "images/MB-Christmas.rlha7ccjcx.png",
+      "AssetFile": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\images\\MB-Christmas.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "833101"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YfERpnRNAEGzv/ArV9pXOwhht09Ej3BpB9iogAy88o0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 00:42:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rlha7ccjcx"
+        },
+        {
+          "Name": "label",
+          "Value": "images/MB-Christmas.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YfERpnRNAEGzv/ArV9pXOwhht09Ej3BpB9iogAy88o0="
+        }
+      ]
+    },
+    {
+      "Route": "images/MB-Feeling_Good.lamxh9hlfc.png",
+      "AssetFile": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\images\\MB-Feeling_Good.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "216952"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HbSVdXc4+LRr84VBlt8LPrQCbYGippX9P01M69fmcPY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 00:42:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lamxh9hlfc"
+        },
+        {
+          "Name": "label",
+          "Value": "images/MB-Feeling_Good.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HbSVdXc4+LRr84VBlt8LPrQCbYGippX9P01M69fmcPY="
+        }
+      ]
+    },
+    {
+      "Route": "images/MB-Feeling_Good.png",
+      "AssetFile": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\images\\MB-Feeling_Good.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "216952"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HbSVdXc4+LRr84VBlt8LPrQCbYGippX9P01M69fmcPY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 00:42:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HbSVdXc4+LRr84VBlt8LPrQCbYGippX9P01M69fmcPY="
+        }
+      ]
+    },
+    {
+      "Route": "images/MB-Higher.jpeg",
+      "AssetFile": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\images\\MB-Higher.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "90241"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kKv5E5ikJcwHlWytgnZFLIFpcU6uKcV+RS5mBB56kzM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 00:42:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kKv5E5ikJcwHlWytgnZFLIFpcU6uKcV+RS5mBB56kzM="
+        }
+      ]
+    },
+    {
+      "Route": "images/MB-Higher.sxx3xjj756.jpeg",
+      "AssetFile": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\images\\MB-Higher.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "90241"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kKv5E5ikJcwHlWytgnZFLIFpcU6uKcV+RS5mBB56kzM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 00:42:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sxx3xjj756"
+        },
+        {
+          "Name": "label",
+          "Value": "images/MB-Higher.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kKv5E5ikJcwHlWytgnZFLIFpcU6uKcV+RS5mBB56kzM="
+        }
+      ]
+    },
+    {
+      "Route": "images/MB-Sway.fmzf87z525.jpeg",
+      "AssetFile": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\images\\MB-Sway.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7996"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F1YfUt7poatWj045rU2HIuB14fEdOcXG93/pyZCBQ98=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 00:43:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fmzf87z525"
+        },
+        {
+          "Name": "label",
+          "Value": "images/MB-Sway.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-F1YfUt7poatWj045rU2HIuB14fEdOcXG93/pyZCBQ98="
+        }
+      ]
+    },
+    {
+      "Route": "images/MB-Sway.jpeg",
+      "AssetFile": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\images\\MB-Sway.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7996"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F1YfUt7poatWj045rU2HIuB14fEdOcXG93/pyZCBQ98=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 00:43:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-F1YfUt7poatWj045rU2HIuB14fEdOcXG93/pyZCBQ98="
+        }
+      ]
+    },
+    {
+      "Route": "images/MJ-Smooth_Criminal.4aygmp4st1.jpeg",
+      "AssetFile": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\images\\MJ-Smooth_Criminal.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "99834"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dNT5P74sh5HZ1gqpsuhURXrN7X9yKO/CK/ri+IP0UO8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 00:42:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4aygmp4st1"
+        },
+        {
+          "Name": "label",
+          "Value": "images/MJ-Smooth_Criminal.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dNT5P74sh5HZ1gqpsuhURXrN7X9yKO/CK/ri+IP0UO8="
+        }
+      ]
+    },
+    {
+      "Route": "images/MJ-Smooth_Criminal.jpeg",
+      "AssetFile": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\images\\MJ-Smooth_Criminal.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "99834"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dNT5P74sh5HZ1gqpsuhURXrN7X9yKO/CK/ri+IP0UO8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 00:42:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dNT5P74sh5HZ1gqpsuhURXrN7X9yKO/CK/ri+IP0UO8="
+        }
+      ]
+    },
+    {
+      "Route": "images/MJ-Thriller.1x0zr1vfea.jpeg",
+      "AssetFile": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\images\\MJ-Thriller.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "120643"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m8HpDLiOGPObQf/uM9XmVBHGhv6Kxuyz35DW/Nx073c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 00:42:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1x0zr1vfea"
+        },
+        {
+          "Name": "label",
+          "Value": "images/MJ-Thriller.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-m8HpDLiOGPObQf/uM9XmVBHGhv6Kxuyz35DW/Nx073c="
+        }
+      ]
+    },
+    {
+      "Route": "images/MJ-Thriller.jpeg",
+      "AssetFile": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\images\\MJ-Thriller.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "120643"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m8HpDLiOGPObQf/uM9XmVBHGhv6Kxuyz35DW/Nx073c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 00:42:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-m8HpDLiOGPObQf/uM9XmVBHGhv6Kxuyz35DW/Nx073c="
+        }
+      ]
+    },
+    {
+      "Route": "images/rumours.jpg",
+      "AssetFile": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\images\\rumours.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "84539"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pOqTgpJAA4U673hQNkkBmXc+aqjCtLOTujbfqQksRhQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 00:55:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pOqTgpJAA4U673hQNkkBmXc+aqjCtLOTujbfqQksRhQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/rumours.kwtlg01583.jpg",
+      "AssetFile": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\images\\rumours.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "84539"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pOqTgpJAA4U673hQNkkBmXc+aqjCtLOTujbfqQksRhQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 00:55:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kwtlg01583"
+        },
+        {
+          "Name": "label",
+          "Value": "images/rumours.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pOqTgpJAA4U673hQNkkBmXc+aqjCtLOTujbfqQksRhQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/thriller.png",
+      "AssetFile": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\images\\thriller.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "81525"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+kgx6rYfaxHhxawSkvgMmsL4lCkPf1iBc9wHj3Y9BwE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 01:22:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+kgx6rYfaxHhxawSkvgMmsL4lCkPf1iBc9wHj3Y9BwE="
+        }
+      ]
+    },
+    {
+      "Route": "images/thriller.ytxn89qtcs.png",
+      "AssetFile": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\images\\thriller.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "81525"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+kgx6rYfaxHhxawSkvgMmsL4lCkPf1iBc9wHj3Y9BwE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 01:22:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ytxn89qtcs"
+        },
+        {
+          "Name": "label",
+          "Value": "images/thriller.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+kgx6rYfaxHhxawSkvgMmsL4lCkPf1iBc9wHj3Y9BwE="
+        }
+      ]
+    },
+    {
+      "Route": "images/vinyl_player.89101goc6y.jpg",
+      "AssetFile": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\images\\vinyl_player.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "396582"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XGcmC8dJ5rY0D8g/XOm3/VgaFMhDEJJU1Rk+cn+24Cs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 01:15:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "89101goc6y"
+        },
+        {
+          "Name": "label",
+          "Value": "images/vinyl_player.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XGcmC8dJ5rY0D8g/XOm3/VgaFMhDEJJU1Rk+cn+24Cs="
+        }
+      ]
+    },
+    {
+      "Route": "images/vinyl_player.jpg",
+      "AssetFile": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\wwwroot\\images\\vinyl_player.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "396582"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XGcmC8dJ5rY0D8g/XOm3/VgaFMhDEJJU1Rk+cn+24Cs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 01:15:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XGcmC8dJ5rY0D8g/XOm3/VgaFMhDEJJU1Rk+cn+24Cs="
+        }
+      ]
+    },
+    {
+      "Route": "TheClassics.bundle.scp.css",
+      "AssetFile": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\obj\\Debug\\net9.0\\compressed\\nw44zer4ka-nagimz5o15.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000562113547"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1778"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Di2lUSzIF6Ghina6rsL0jWHLRtVuxTe/QwS59HaRAP8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 23:11:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"/7Tb+tLKMh1ZerJQ4sPf0JJIu9/7ZZiEEjwoKDxUkyI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/7Tb+tLKMh1ZerJQ4sPf0JJIu9/7ZZiEEjwoKDxUkyI="
+        }
+      ]
+    },
+    {
+      "Route": "TheClassics.bundle.scp.css",
+      "AssetFile": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\TheClassics.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5969"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/7Tb+tLKMh1ZerJQ4sPf0JJIu9/7ZZiEEjwoKDxUkyI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 23:11:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/7Tb+tLKMh1ZerJQ4sPf0JJIu9/7ZZiEEjwoKDxUkyI="
+        }
+      ]
+    },
+    {
+      "Route": "TheClassics.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\obj\\Debug\\net9.0\\compressed\\nw44zer4ka-nagimz5o15.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1778"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Di2lUSzIF6Ghina6rsL0jWHLRtVuxTe/QwS59HaRAP8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 23:11:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Di2lUSzIF6Ghina6rsL0jWHLRtVuxTe/QwS59HaRAP8="
+        }
+      ]
+    },
+    {
+      "Route": "TheClassics.nagimz5o15.bundle.scp.css",
+      "AssetFile": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\obj\\Debug\\net9.0\\compressed\\nw44zer4ka-nagimz5o15.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000562113547"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1778"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Di2lUSzIF6Ghina6rsL0jWHLRtVuxTe/QwS59HaRAP8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 23:11:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"/7Tb+tLKMh1ZerJQ4sPf0JJIu9/7ZZiEEjwoKDxUkyI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nagimz5o15"
+        },
+        {
+          "Name": "label",
+          "Value": "TheClassics.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/7Tb+tLKMh1ZerJQ4sPf0JJIu9/7ZZiEEjwoKDxUkyI="
+        }
+      ]
+    },
+    {
+      "Route": "TheClassics.nagimz5o15.bundle.scp.css",
+      "AssetFile": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\TheClassics.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5969"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/7Tb+tLKMh1ZerJQ4sPf0JJIu9/7ZZiEEjwoKDxUkyI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 23:11:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nagimz5o15"
+        },
+        {
+          "Name": "label",
+          "Value": "TheClassics.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/7Tb+tLKMh1ZerJQ4sPf0JJIu9/7ZZiEEjwoKDxUkyI="
+        }
+      ]
+    },
+    {
+      "Route": "TheClassics.nagimz5o15.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\obj\\Debug\\net9.0\\compressed\\nw44zer4ka-nagimz5o15.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1778"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Di2lUSzIF6Ghina6rsL0jWHLRtVuxTe/QwS59HaRAP8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 23:11:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nagimz5o15"
+        },
+        {
+          "Name": "label",
+          "Value": "TheClassics.bundle.scp.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Di2lUSzIF6Ghina6rsL0jWHLRtVuxTe/QwS59HaRAP8="
+        }
+      ]
+    },
+    {
+      "Route": "TheClassics.nagimz5o15.styles.css",
+      "AssetFile": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\obj\\Debug\\net9.0\\compressed\\od6imtbh7b-nagimz5o15.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000562113547"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1778"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Di2lUSzIF6Ghina6rsL0jWHLRtVuxTe/QwS59HaRAP8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 23:11:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"/7Tb+tLKMh1ZerJQ4sPf0JJIu9/7ZZiEEjwoKDxUkyI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nagimz5o15"
+        },
+        {
+          "Name": "label",
+          "Value": "TheClassics.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/7Tb+tLKMh1ZerJQ4sPf0JJIu9/7ZZiEEjwoKDxUkyI="
+        }
+      ]
+    },
+    {
+      "Route": "TheClassics.nagimz5o15.styles.css",
+      "AssetFile": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\obj\\Debug\\net9.0\\scopedcss\\bundle\\TheClassics.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5969"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/7Tb+tLKMh1ZerJQ4sPf0JJIu9/7ZZiEEjwoKDxUkyI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 23:11:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nagimz5o15"
+        },
+        {
+          "Name": "label",
+          "Value": "TheClassics.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/7Tb+tLKMh1ZerJQ4sPf0JJIu9/7ZZiEEjwoKDxUkyI="
+        }
+      ]
+    },
+    {
+      "Route": "TheClassics.nagimz5o15.styles.css.gz",
+      "AssetFile": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\obj\\Debug\\net9.0\\compressed\\od6imtbh7b-nagimz5o15.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1778"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Di2lUSzIF6Ghina6rsL0jWHLRtVuxTe/QwS59HaRAP8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 23:11:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nagimz5o15"
+        },
+        {
+          "Name": "label",
+          "Value": "TheClassics.styles.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Di2lUSzIF6Ghina6rsL0jWHLRtVuxTe/QwS59HaRAP8="
+        }
+      ]
+    },
+    {
+      "Route": "TheClassics.styles.css",
+      "AssetFile": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\obj\\Debug\\net9.0\\compressed\\od6imtbh7b-nagimz5o15.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000562113547"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1778"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Di2lUSzIF6Ghina6rsL0jWHLRtVuxTe/QwS59HaRAP8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 23:11:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"/7Tb+tLKMh1ZerJQ4sPf0JJIu9/7ZZiEEjwoKDxUkyI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/7Tb+tLKMh1ZerJQ4sPf0JJIu9/7ZZiEEjwoKDxUkyI="
+        }
+      ]
+    },
+    {
+      "Route": "TheClassics.styles.css",
+      "AssetFile": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\obj\\Debug\\net9.0\\scopedcss\\bundle\\TheClassics.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5969"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/7Tb+tLKMh1ZerJQ4sPf0JJIu9/7ZZiEEjwoKDxUkyI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 23:11:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/7Tb+tLKMh1ZerJQ4sPf0JJIu9/7ZZiEEjwoKDxUkyI="
+        }
+      ]
+    },
+    {
+      "Route": "TheClassics.styles.css.gz",
+      "AssetFile": "C:\\Users\\13049\\RiderProjects\\TheClassics\\TheClassics\\obj\\Debug\\net9.0\\compressed\\od6imtbh7b-nagimz5o15.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1778"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Di2lUSzIF6Ghina6rsL0jWHLRtVuxTe/QwS59HaRAP8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 23:11:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Di2lUSzIF6Ghina6rsL0jWHLRtVuxTe/QwS59HaRAP8="
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+﻿@page "/receipts"
+@inject AuthService AuthService
+@inject ApplicationDbContext DbContext
+@inject NavigationManager NavManager
+
+<div class="main-content">
+    <h2>My Receipts</h2>
+    <ul>
+        @foreach (var order in orders)
+        {
+            <li>
+                <a href="/receipt/@order.OrderId">
+                    Order #@order.OrderId – @order.Total.ToString("C") on @order.OrderDate:d
+                </a>
+            </li>
+        }
+    </ul>
+</div>
+
+@code {
+    private List<Order> orders = new();
+    protected override async Task OnInitializedAsync()
+    {
+        var user = AuthService.CurrentUser!;
+        orders = await DbContext.Orders
+            .Where(o => o.UserId == user.UserId)
+            .OrderByDescending(o => o.OrderDate)
+            .ToListAsync();
+    }
+}

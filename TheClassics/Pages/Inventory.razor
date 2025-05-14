@@ -1,0 +1,40 @@
+﻿@page "/inventory"
+
+@inject ApplicationDbContext DbContext
+
+<h1>Inventory</h1>
+<SearchBar OnSearch="HandleSearch" />
+
+<div class="grid">
+    @foreach (var item in filteredItems)
+    {
+        <VinylCard Item="item" />
+    }
+</div>
+
+@code {
+    private List<InventoryItem> inventoryItems = new();
+    private List<InventoryItem> filteredItems  = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        inventoryItems = await DbContext.InventoryItems
+            .Where(i => !i.IsSold)
+            .ToListAsync();
+        filteredItems = inventoryItems;
+    }
+
+    private void HandleSearch(string term)
+    {
+        if (string.IsNullOrWhiteSpace(term))
+        {
+            filteredItems = inventoryItems;
+        }
+        else
+        {
+            filteredItems = inventoryItems
+                .Where(i => i.Name.Contains(term, StringComparison.OrdinalIgnoreCase))
+                .ToList();
+        }
+    }
+}

@@ -1,0 +1,39 @@
+﻿@page "/receipt"
+
+@inject ApplicationDbContext DbContext
+
+<h3>Order Receipt</h3>
+
+@if (lastOrder is null)
+{
+    <p>Loading…</p>
+}
+else
+{
+    <p>Order #: @lastOrder.OrderId</p>
+    <p>Recipient: @lastOrder.User.Email</p>
+    <p>Shipping: @lastOrder.ShippingSpeed</p>
+    <ul>
+        @foreach (var item in lastOrder.InventoryItems)
+        {
+            <li>@item.Name – @item.Price.ToString("C")</li>
+        }
+    </ul>
+    <p>Subtotal: @lastOrder.Subtotal.ToString("C")</p>
+    <p>Tax: @lastOrder.Tax.ToString("C")</p>
+    <p>Shipping: @lastOrder.ShippingCost.ToString("C")</p>
+    <p>Total: @lastOrder.Total.ToString("C")</p>
+}
+
+@code {
+    private Order? lastOrder;
+
+    protected override async Task OnInitializedAsync()
+    {
+        lastOrder = await DbContext.Orders
+            .Include(o => o.User)
+            .Include(o => o.InventoryItems)
+            .OrderByDescending(o => o.OrderDate)
+            .FirstOrDefaultAsync();
+    }
+}

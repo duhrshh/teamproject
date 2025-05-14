@@ -1,0 +1,84 @@
+﻿/* ─────────────────────────────────────────────────────────
+   Top Nav (fixed at top, pure black background)
+   ─────────────────────────────────────────────────────── */
+.top-nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background: #000;
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+    height: 4rem;
+    z-index: 1000;
+    box-sizing: border-box;
+}
+
+.nav-left,
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+/* Left side takes just what it needs; right side hugs right */
+.nav-left {
+    flex: 0;
+}
+.nav-right {
+    flex: 1;
+    justify-content: flex-end;
+}
+
+/* Common link/button styles */
+.nav-link {
+    color: #fff;
+    margin-right: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav-link:last-child {
+    margin-right: 0;
+}
+.nav-link.active,
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.nav-button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+.nav-button:hover {
+    text-decoration: underline;
+}
+
+/* push page content below the fixed nav bar */
+.main-content {
+    padding-top: 5rem;   /* must be >= your nav bar height */
+    max-width: 900px;
+    margin: 0 auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-sizing: border-box;
+}
+.vinyl-card img {
+    width: 200px;        
+    height: 200px;        
+    object-fit: cover;    
+    display: block;
+    margin: 0 auto 1rem;  
+}
+
+/*─────────────────────────────────────────────────────────────────────────
+  Homepage hero vinyl‐player sizing
+──────────────────────────────────────────────────────────────────────────*/
+.vinyl-player {
+    width: 300px;         /* pick whatever fixed width you want */
+    height: auto;         /* scales height proportionally */
+    object-fit: cover;    /* crops if the source aspect ratio differs */
+    display: block;
+    margin: 0 auto 2rem;  /* center + give bottom breathing room */
+}

@@ -1,0 +1,54 @@
+﻿@page "/confirm-order"
+
+@using System.Linq
+@inject TheClassics.Services.CartService CartService
+@inject TheClassics.Services.AuthService AuthService
+@inject ApplicationDbContext DbContext
+@inject NavigationManager NavManager
+
+<h3>Confirm Order</h3>
+<p>Total: @CartService.Total.ToString("C")</p>
+<button @onclick="PlaceOrder">Confirm Order</button>
+<button @onclick="GoToCart">Back to Cart</button>
+
+@code {
+    private async Task PlaceOrder()
+    {
+        var user = AuthService.CurrentUser;
+        if (user is null)
+        {
+            NavManager.NavigateTo("/login");
+            return;
+        }
+
+        var order = new Order
+        {
+            UserId          = user.UserId,
+            ShippingAddress = user.Email,
+            Phone           = "000-000-0000",
+            CreditCardLast4 = "0000",
+            ShippingSpeed   = CartService.ShippingOption,
+            Subtotal        = CartService.Subtotal,
+            Tax             = CartService.Tax,
+            ShippingCost    = CartService.ShippingCost,
+            Total           = CartService.Total,
+            OrderDate       = DateTime.UtcNow,
+            InventoryItems  = CartService.Cart.ToList()
+        };
+
+        DbContext.Orders.Add(order);
+        await DbContext.SaveChangesAsync();
+
+        foreach (var item in CartService.Cart)
+        {
+            item.IsSold  = true;
+            item.OrderId = order.OrderId;
+        }
+        await DbContext.SaveChangesAsync();
+
+        CartService.ClearCart();
+        NavManager.NavigateTo("/receipt");
+    }
+
+    private void GoToCart() => NavManager.NavigateTo("/cart");
+}

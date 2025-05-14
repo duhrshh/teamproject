@@ -1,0 +1,26 @@
+﻿@inject NavigationManager NavManager
+
+<div class="vinyl-card">
+    <img src="@Item.ImageUrl"
+         alt="@Item.Name"
+         @onclick="GoToDetails" />
+    <h4>@Item.Name</h4>
+    <QuantitySelector Item="Item" />
+</div>
+
+@code {
+    /// <summary>
+    /// The vinyl item to render.
+    /// </summary>
+    [Parameter, EditorRequired]
+    public InventoryItem Item { get; set; } = default!;
+
+    /// <summary>
+    /// Navigate to the details page for this item.
+    /// </summary>
+    private void GoToDetails()
+    {
+        // Use the single-string overload; no "uri:" named parameter
+        NavManager.NavigateTo($"/inventory/{Item.ItemId}");
+    }
+}

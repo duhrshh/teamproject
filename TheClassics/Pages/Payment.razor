@@ -1,0 +1,95 @@
+﻿@page "/payment"
+@using System.ComponentModel.DataAnnotations
+@inject TheClassics.Services.CartService CartService
+@inject NavigationManager NavManager
+
+<EditForm Model="orderModel" OnValidSubmit="GoToConfirm">
+  <DataAnnotationsValidator />
+  <ValidationSummary />
+
+  <h3>Payment Process</h3>
+
+  @if (!CartService.Cart.Any())
+  {
+    <p>No items to pay for.</p>
+    <button type="button" @onclick="GoToInventory">
+      Back to Inventory
+    </button>
+  }
+  else
+  {
+    <div class="field">
+      <label for="address">Shipping Address</label>
+      <InputTextArea id="address"
+                     @bind-Value="orderModel.ShippingAddress"
+                     rows="3" />
+    </div>
+
+    <div class="field">
+      <label for="phone">Phone</label>
+      <InputText id="phone"
+                 @bind-Value="orderModel.Phone" />
+    </div>
+
+    <div class="field">
+      <label for="cc">Credit Card Number</label>
+      <InputText id="cc"
+                 @bind-Value="orderModel.CreditCardNumber"
+                 maxlength="19"
+                 placeholder="xxxx-xxxx-xxxx-xxxx" />
+    </div>
+
+    <div class="field">
+      <label for="speed">Shipping Option</label>
+      <InputSelect id="speed" @bind-Value="orderModel.ShippingSpeed">
+        <option value="Overnight">Overnight ($29)</option>
+        <option value="ThreeDay">3-Day ($19)</option>
+        <option value="Ground">Ground (Free)</option>
+      </InputSelect>
+    </div>
+
+    <p>Subtotal: @CartService.Subtotal.ToString("C")</p>
+    <p>Tax (6%): @CartService.Tax.ToString("C")</p>
+    <p>Shipping: @CartService.ShippingCost.ToString("C")</p>
+    <p><strong>Total: @CartService.Total.ToString("C")</strong></p>
+
+    <button type="submit">Proceed to Confirm</button>
+    <button type="button" @onclick="GoToCart">
+      Back to Cart
+    </button>
+  }
+</EditForm>
+
+@code {
+  private OrderInput orderModel = new();
+
+  private void GoToInventory()
+  {
+    NavManager.NavigateTo("/inventory");
+  }
+
+  private void GoToCart()
+  {
+    NavManager.NavigateTo("/cart");
+  }
+
+  private void GoToConfirm()
+  {
+    NavManager.NavigateTo("/confirm-order");
+  }
+
+  private class OrderInput
+  {
+    [Required, StringLength(255)]
+    public string ShippingAddress { get; set; } = string.Empty;
+
+    [Required, Phone]
+    public string Phone { get; set; } = string.Empty;
+
+    [Required, MinLength(13), MaxLength(19)]
+    public string CreditCardNumber { get; set; } = string.Empty;
+
+    [Required]
+    public string ShippingSpeed { get; set; } = "Ground";
+  }
+}

@@ -1,0 +1,51 @@
+﻿@page "/register"
+
+@using System.ComponentModel.DataAnnotations
+@inject TheClassics.Services.AuthService AuthService
+@inject NavigationManager NavManager
+
+<EditForm Model="regModel" OnValidSubmit="HandleRegister">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div>
+        <label>Email</label>
+        <InputText @bind-Value="regModel.Email" />
+    </div>
+    <div>
+        <label>Username</label>
+        <InputText @bind-Value="regModel.Username" />
+    </div>
+    <div>
+        <label>Password</label>
+        <InputText @bind-Value="regModel.Password" type="password" />
+        <small>At least 6 characters</small>
+    </div>
+    <button type="submit">Register</button>
+
+    @if (registerFailed)
+    {
+        <p class="error">Username or email already in use.</p>
+    }
+</EditForm>
+
+@code {
+    private RegModel regModel = new();
+    private bool registerFailed;
+
+    private async Task HandleRegister()
+    {
+        registerFailed = !await AuthService.RegisterAsync(regModel.Username, regModel.Email, regModel.Password);
+        if (!registerFailed)
+        {
+            NavManager.NavigateTo("/login");
+        }
+    }
+
+    private class RegModel
+    {
+        [Required, EmailAddress] public string Email { get; set; } = string.Empty;
+        [Required] public string Username { get; set; } = string.Empty;
+        [Required, MinLength(6)] public string Password { get; set; } = string.Empty;
+    }
+}

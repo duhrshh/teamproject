@@ -1,0 +1,32 @@
+﻿@page "/"
+@inject ApplicationDbContext DbContext
+
+<div class="main-content">
+    <h1>The Classics</h1>
+    <p>Discover a curated collection of one-of-a-kind vinyl records — each item is unique and disappears from inventory once sold. Whether you're a casual collector or a serious crate digger, our seamless shopping experience lets you browse, buy, and enjoy rare finds with confidence. Start exploring and grab your favorites before they’re gone for good.</p>
+    <img class="vinyl-player"
+         src="/images/vinyl_player.jpg"
+         alt="Vinyl Player" />
+
+    <h2>New Releases</h2>
+    <div class="grid">
+        @foreach (var item in NewReleases)
+        {
+            <VinylCard Item="item" />
+        }
+    </div>
+</div>
+
+@code {
+    private List<InventoryItem> NewReleases { get; set; } = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        // Grab the 5 most recently added, unsold vinyls
+        NewReleases = await DbContext.InventoryItems
+            .Where(i => !i.IsSold)
+            .OrderByDescending(i => i.ItemId)
+            .Take(5)
+            .ToListAsync();
+    }
+}

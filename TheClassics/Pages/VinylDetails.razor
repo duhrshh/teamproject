@@ -1,0 +1,31 @@
+﻿@page "/inventory/{ItemId:int}"
+
+@inject ApplicationDbContext DbContext
+@inject NavigationManager NavManager
+
+@if (item is null)
+{
+    <p>Loading…</p>
+}
+else
+{
+    <h3>@item.Name</h3>
+    <img src="@item.ImageUrl" alt="@item.Name" />
+    <p>@item.Description</p>
+    <p>Price: @item.Price.ToString("C")</p>
+    <QuantitySelector Item="item" />
+    <button @onclick="GoBack">Back to Inventory</button>
+}
+
+@code {
+    [Parameter] public int ItemId { get; set; }
+    private InventoryItem? item;
+
+    protected override async Task OnParametersSetAsync()
+    {
+        item = await DbContext.InventoryItems
+            .FirstOrDefaultAsync(i => i.ItemId == ItemId);
+    }
+
+    private void GoBack() => NavManager.NavigateTo("/inventory");
+}

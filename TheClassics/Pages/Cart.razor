@@ -1,0 +1,31 @@
+﻿@page "/cart"
+
+@inject TheClassics.Services.CartService CartService
+@inject NavigationManager NavManager
+
+<h3>Shopping Cart</h3>
+
+@if (!CartService.Cart.Any())
+{
+    <p>Your cart is empty.</p>
+    <button @onclick="GoToInventory">Browse Inventory</button>
+}
+else
+{
+    <ul>
+        @foreach (var item in CartService.Cart)
+        {
+            <li>
+                <img src="@item.ImageUrl" alt="@item.Name" width="50" />
+                @item.Name – @item.Price.ToString("C")
+                <button @onclick="() => CartService.Remove(item)">-</button>
+            </li>
+        }
+    </ul>
+    <button @onclick="GoToCheckout">Checkout</button>
+}
+
+@code {
+    private void GoToInventory() => NavManager.NavigateTo("/inventory");
+    private void GoToCheckout() => NavManager.NavigateTo("/checkout");
+}

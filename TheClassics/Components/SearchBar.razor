@@ -1,0 +1,24 @@
+﻿
+<input
+    @bind-value="_searchTerm"
+    @bind-value:event="oninput"
+    placeholder="Search..."
+    @onkeyup="HandleKeyUp" />
+
+@code {
+    /// <summary>
+    /// Fired when the user presses "Enter" in the input.
+    /// </summary>
+    [Parameter]
+    public EventCallback<string> OnSearch { get; set; }
+
+    private string _searchTerm = string.Empty;
+
+    private async Task HandleKeyUp(KeyboardEventArgs args)
+    {
+        if (args.Key == "Enter")
+        {
+            await OnSearch.InvokeAsync(_searchTerm);
+        }
+    }
+}

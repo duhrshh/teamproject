@@ -1,0 +1,16 @@
+﻿@inject CartService CartService
+
+<div class="quantity-selector">
+    <button @onclick="Decrement"
+            disabled="@(!CartService.Cart.Contains(Item))">-</button>
+    <span>@(CartService.Cart.Contains(Item) ? 1 : 0)</span>
+    <button @onclick="Increment"
+            disabled="@(CartService.Cart.Contains(Item) || Item.IsSold)">+</button>
+</div>
+
+@code {
+    [Parameter, EditorRequired] public InventoryItem Item { get; set; } = default!;
+
+    private void Increment() => CartService.Add(Item);
+    private void Decrement() => CartService.Remove(Item);
+}

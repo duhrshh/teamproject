@@ -1,0 +1,65 @@
+﻿@inject NavigationManager NavManager
+@inject AuthService AuthService
+@implements IDisposable
+
+@code {
+    // True when the current route is exactly "/"
+    private bool IsHome =>
+        string.IsNullOrEmpty(NavManager.ToBaseRelativePath(NavManager.Uri));
+
+    protected override void OnInitialized()
+    {
+        AuthService.AuthStateChanged += OnAuthChanged;
+    }
+
+    private void OnAuthChanged() 
+        => InvokeAsync(StateHasChanged);
+
+    public void Dispose()
+    {
+        AuthService.AuthStateChanged -= OnAuthChanged;
+    }
+
+    private void Logout()
+    {
+        AuthService.Logout();
+        NavManager.NavigateTo("/");
+    }
+}
+
+<nav class="top-nav">
+    <div class="nav-left">
+        @* only show on non-home pages *@
+        @if (!IsHome)
+        {
+            @* admins see this *@
+            @if (AuthService.CurrentUser?.IsAdmin == true)
+            {
+                <NavLink href="/sales-report" class="nav-link">Sales Report</NavLink>
+            }
+            @* normal users see this *@
+            else if (AuthService.CurrentUser != null)
+            {
+                <NavLink href="/receipts" class="nav-link">My Receipts</NavLink>
+            }
+
+            @* then the Home button *@
+            <NavLink href="/" class="nav-link" Match="NavLinkMatch.All">Home</NavLink>
+        }
+    </div>
+
+    <div class="nav-right">
+        @* always on the right *@
+        <NavLink href="/inventory" class="nav-link">Inventory</NavLink>
+        <NavLink href="/cart"      class="nav-link">Cart</NavLink>
+
+        @if (AuthService.CurrentUser == null)
+        {
+            <NavLink href="/login" class="nav-link">Login</NavLink>
+        }
+        else
+        {
+            <button class="nav-button" @onclick="Logout">Logout</button>
+        }
+    </div>
+</nav>

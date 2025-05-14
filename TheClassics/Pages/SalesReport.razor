@@ -1,0 +1,59 @@
+﻿@page "/sales-report"
+
+@using System.Linq
+
+@inject ApplicationDbContext DbContext
+
+<h3>Sales Report</h3>
+
+@if (soldItems is null)
+{
+    <p>Loading…</p>
+}
+else
+{
+    <table>
+        <thead>
+        <tr>
+            <th>Order ID</th>
+            <th>Email</th>
+            <th>Address</th>
+            <th>Item Sold</th>
+            <th>Order Total</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in soldItems)
+        {
+            <tr>
+                <td>@item.OrderId</td>
+                <td>@item.Order.User.Email</td>
+                <td>@item.Order.ShippingAddress</td>
+                <td>@item.Name</td>
+                <td>@item.Order.Total.ToString("C")</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+
+    <p><strong>Net Sales:</strong> @NetSales.ToString("C")</p>
+    <p><strong>Items Sold:</strong> @ItemsSold</p>
+    <p><strong>Estimated Income:</strong> @Income.ToString("C")</p>
+}
+
+@code {
+    private List<InventoryItem>? soldItems;
+
+    protected override async Task OnInitializedAsync()
+    {
+        soldItems = await DbContext.InventoryItems
+            .Where(i => i.IsSold)
+            .Include(i => i.Order)
+            .ThenInclude(o => o.User)
+            .ToListAsync();
+    }
+
+    private double NetSales => soldItems?.Select(i => i.Order.Total).Distinct().Sum() ?? 0;
+    private int ItemsSold  => soldItems?.Count ?? 0;
+    private double Income   => NetSales - (ItemsSold * 5);
+}
